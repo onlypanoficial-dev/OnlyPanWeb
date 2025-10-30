@@ -154,13 +154,15 @@
       border:1px solid rgba(90,52,24,0.04);
     }
     footer{
-      margin-top:36px;
-      padding:22px 0;
-      color:var(--muted);
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:12px;
+footer a.tiktok {
+  color: var(--brown-mid);
+  text-decoration: none;
+  font-weight: 700;
+}
+footer a.tiktok:hover {
+  color: var(--brown-dark);
+  text-decoration: underline;
+}x
     }
     .social a{
       text-decoration:none;
@@ -175,6 +177,15 @@
       header{ padding:12px 12px; }
       .brand img{ width:56px; height:56px; }
     }
+    a.tiktok {
+  color: var(--brown-mid);
+  text-decoration: none;
+  font-weight: 700;
+}
+a.tiktok:hover {
+  color: var(--brown-dark);
+  text-decoration: underline;
+}
   </style>
 </head>
 <body>
@@ -519,8 +530,9 @@ El molde que usa la chica es de 9x25 pero las budineras también sirven solo ten
           <h3>Contacto</h3>
           <p>Por ahora nuestra red social principal es Instagram. Para consultas comerciales o pedidos, podés contactarnos por DM en Instagram o escribir al correo que prefieran agregar más adelante.</p>
           <p style="margin-top:8px"><strong>Instagram:</strong> <a href="https://www.instagram.com/onlypansrl/" target="_blank" rel="noopener">instagram.com/onlypansrl</a></p>
-          <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@onlypansrl" target="_blank" rel="noopener">@onlypansrl</a></p>
+    <p><strong>TikTok:</strong> <a class="tiktok" href="https://www.tiktok.com/@onlypansrl" target="_blank" rel="noopener">@onlypansrl</a></p>
           <p><strong>Email:</strong> OnlypanOficial@gmail.com</p>
+          
         </div>
 
         <aside class="card">
@@ -533,16 +545,21 @@ El molde que usa la chica es de 9x25 pero las budineras también sirven solo ten
       </div>
     </section>
 
-    <footer>
-      <div>© <strong>OnlyPan</strong> 2025 · Pan artesanal</div>
-      <div class="social">Síguenos: <a href="https://www.instagram.com/onlypansrl/" target="_blank" rel="noopener">@onlypansrl</a></div>
-      <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@onlypansrl" target="_blank" rel="noopener">@onlypansrl</a></div>
+<footer>
+  <div>© <strong>OnlyPan</strong> 2025 · Pan artesanal</div>
+  <div class="social">
+    Síguenos:
+    <a href="https://www.instagram.com/onlypansrl/" target="_blank" rel="noopener">@onlypansrl</a>
+    &nbsp;|&nbsp;
+    TikTok:
+    <a class="tiktok" href="https://www.tiktok.com/@onlypansrl" target="_blank" rel="noopener">@onlypansrl</a>
       <p><strong>Email:</strong>OnlypanOficial@gmail.com</p>
-    </footer>
-  </main>
+  </div>
+</footer>
 
 </body>
 </html>
+
 
 
 
